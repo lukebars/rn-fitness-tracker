@@ -44,9 +44,9 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, "8.0"
 
-  s.source = { :git => "https://github.com/Dovke/rn-fitness-tracker.git", :tag => s.version }
+  s.source = { :git => "https://github.com/lukebars/rn-fitness-tracker.git" }
 
-  s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
+  s.preserve_paths = 'LICENSE'
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency 'React'
